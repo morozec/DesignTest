@@ -29,7 +29,7 @@ export default class NavbarComponent extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className='navbarComponent'>
         <Navbar className='navbar-dark bg-primary' expand="md">
           <NavbarBrand href="/">reactstrap</NavbarBrand>
 
