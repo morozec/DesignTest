@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Content = () => {
+const Content = (props) => {
     return (
-        <div className='content bg-success'>
+        <div className={props.className}>
             I am a content
         </div>
     )

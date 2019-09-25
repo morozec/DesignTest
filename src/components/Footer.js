@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = (props) => {
     return (
-        <div className='footer bg-danger'>
+        <div className={props.className}>
             I am a footer
         </div>
     )
